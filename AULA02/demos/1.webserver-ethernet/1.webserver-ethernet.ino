@@ -11,7 +11,6 @@ byte mac[] = {
 // 80 é a porta que será usada. (padrão http)
 EthernetServer server(80);
 
-//Varial para mostrar a atualização da pagina
  
 void setup() {
  // Abrindo a comunicação serial para monitoramento.
