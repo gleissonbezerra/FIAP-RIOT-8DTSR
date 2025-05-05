@@ -36,7 +36,7 @@ def main():
     print ( "Camera Module for Python" )
 
     CAMERA_INDEX = 1
-    CAMERA_INTERVAL = 0.5
+    CAMERA_INTERVAL = 0.1
     INFERENCE_URL = "http://localhost:8080/analyze" 
 
     vf = cv.VideoCapture(CAMERA_INDEX)

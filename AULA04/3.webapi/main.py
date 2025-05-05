@@ -1,6 +1,6 @@
 from flask import Flask, render_template, Response, request
-from Inference_yolo import InferenceCapture
-#from Inference_ssd import InferenceCapture
+#from Inference_yolo import InferenceCapture
+from Inference_ssd import InferenceCapture
 
 import numpy as np
 
